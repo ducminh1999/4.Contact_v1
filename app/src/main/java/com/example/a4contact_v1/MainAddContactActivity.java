@@ -21,7 +21,7 @@ public class MainAddContactActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.add_contact_activity_main);
+        setContentView(R.layout.activity_add_main);
         init();
         imgbtnDone.setOnClickListener(new View.OnClickListener() {
             @Override

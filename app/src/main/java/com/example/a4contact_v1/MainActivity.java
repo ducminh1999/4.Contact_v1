@@ -9,7 +9,6 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
-import com.example.a4contact_v1.model.Contact;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -22,9 +21,6 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton imgbtnAvt;
     private ImageButton imgbtnCall;
     private ImageButton imgbtnSearch;
-    private ArrayList<Contact> arrayContact;
-    private ListView lvContact;
-    private ArrayAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
