@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
@@ -12,8 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="16dp"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/imgbtn_search"
@@ -23,42 +22,43 @@
             app:srcCompat="@android:drawable/ic_menu_search" />
 
         <EditText
-            android:layout_weight="9"
             android:id="@+id/edt_search"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Search"/>
+            android:layout_weight="9"
+            android:hint="Search" />
     </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:layout_marginLeft="16dp">
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
 
         <ImageButton
-            android:layout_weight="1"
             android:id="@+id/imgbtn_avt"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_weight="1"
             android:background="#EEF6FA"
             app:srcCompat="@drawable/avt" />
+
         <TextView
             android:id="@+id/tv_infor"
-            android:layout_weight="8"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Nguyen Van A"/>
+            android:layout_weight="8"
+            android:gravity="center"
+            android:text="Nguyen Van A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <ImageButton
-            android:layout_weight="1"
             android:id="@+id/imgbtn_call"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_weight="1"
             android:background="#1ADB21"
             app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
@@ -66,17 +66,15 @@
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/fab_add"
-        android:layout_marginRight="16dp"
         android:layout_gravity="end"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="16dp"
         android:src="@drawable/add3"
-        app:maxImageSize="65dp"
         app:fabSize="normal"
-       />
-
+        app:maxImageSize="65dp" />
 
 
 </LinearLayout>

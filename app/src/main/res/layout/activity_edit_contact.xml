@@ -10,36 +10,37 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        >
+        android:layout_margin="16dp">
+
         <ImageButton
-            android:layout_weight="1"
             android:id="@+id/imgbtn_cancel"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_weight="1"
             android:background="#1ADB21"
             app:srcCompat="@android:drawable/ic_delete" />
 
         <TextView
-            android:layout_weight="8"
             android:id="@+id/tv_edit_contact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Edit Contact"
-            android:gravity="center"
             android:layout_gravity="center"
-            android:textSize="30sp"/>
+            android:layout_weight="8"
+            android:gravity="center"
+            android:text="Edit Contact"
+            android:textSize="30sp" />
 
         <ImageButton
-            android:layout_weight="1"
             android:id="@+id/imgbtn_done"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_weight="1"
             android:background="#F44336"
             app:srcCompat="@drawable/done1" />
 
 
     </LinearLayout>
+
     <ImageButton
         android:id="@+id/imgbtn_avt"
         android:layout_width="150dp"
@@ -55,14 +56,14 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:text="name"
-        android:textSize="25sp"
-        />
+        android:textSize="25sp" />
+
     <TextView
         android:id="@+id/tv_phone"
-        android:text="phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:textSize="25sp"
-        />
+        android:text="phone"
+        android:textSize="25sp" />
+
 </LinearLayout>
