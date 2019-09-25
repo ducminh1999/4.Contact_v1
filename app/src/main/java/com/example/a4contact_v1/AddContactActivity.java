@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-public class MainAddContactActivity extends AppCompatActivity {
+public class AddContactActivity extends AppCompatActivity {
 
     private TextView tvEditContact;
     private EditText edtName1;
